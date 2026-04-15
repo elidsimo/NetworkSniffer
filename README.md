@@ -1,7 +1,7 @@
-# CodeAlpha - Basic Network Sniffer
+#  Basic Network Sniffer
 
 ## Description
-A Python-based network packet sniffer built for the CodeAlpha Cybersecurity Internship.
+A Python-based network packet sniffer .
 
 ## Features
 - Captures live network traffic on wlan0
@@ -20,4 +20,4 @@ pip install scapy
 sudo python3 sniffer.py
 
 ## Author
-el-idrysy mohamed - CodeAlpha Internship Task 1
+el-idrysy mohamed 
