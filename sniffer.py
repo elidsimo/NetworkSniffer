@@ -34,7 +34,7 @@ def packet_callback(packet):
             payload = packet[Raw].load[:50]  # premiers 50 bytes
             print(f"         Payload: {payload}")
 
-print("=== CodeAlpha Network Sniffer ===")
+print("Network Sniffer ")
 print("Démarrage de la capture... (Ctrl+C pour arrêter)\n")
 
 # Capturer 50 paquets sur l'interface eth0
