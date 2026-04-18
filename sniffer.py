@@ -37,5 +37,5 @@ def packet_callback(packet):
 print("Network Sniffer ")
 print("Démarrage de la capture... (Ctrl+C pour arrêter)\n")
 
-# Capturer 50 paquets sur l'interface eth0
+# Capturer 50 paquets sur l'interface eth0/wlan0
 sniff(iface="wlan0", prn=packet_callback, count=50, store=False)
